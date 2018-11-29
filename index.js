@@ -18,4 +18,4 @@ http.createServer(function(req, res){
 					
 }).listen(8080);
 
-console.log("Sudoku game is on port 3000");
+console.log("Sudoku game is on port 8080");
