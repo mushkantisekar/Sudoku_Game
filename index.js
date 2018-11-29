@@ -1,5 +1,5 @@
 var http = require("http");
-var fs = require("fs")
+var fs = require("fs");
 
 http.createServer(function(req, res){
 	
@@ -18,4 +18,4 @@ http.createServer(function(req, res){
 				
 }).listen(3000);
 
-console.log("Sudoku game is on port 3000");
+console.log("Sudoku game is Running... Enjoy Playing!");
