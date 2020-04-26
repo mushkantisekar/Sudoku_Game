@@ -16,6 +16,6 @@ http.createServer(function(req, res){
 		fs.createReadStream("sudoku.htm", "UTF-8").pipe(res);	
 	}
 				
-}).listen(3000);
+}).listen(8080);
 
 console.log("Sudoku game is Running... Enjoy Playing!");
